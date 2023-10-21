@@ -37,7 +37,7 @@ function App() {
   },[length,numberAllowed,characterAllowed,passwordGenerator])
 
   return (
-    <div className="h-screen w-auto flex justify-center bg-black text-white">
+    <div className="h-screen w-auto flex justify-center bg-orange-500 text-white">
       <div className="flex flex-col gap-7 flex-wrap fixed top-10 bg-gray-800 rounded-xl p-3 max-w-2xl">
         <div className="flex justify-between mt-2">
           <input
